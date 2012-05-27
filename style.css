@@ -1,0 +1,14 @@
+#menu {
+	height:100px;
+	width:70%;
+	border: 1px solid #999;
+	margin:auto;
+	padding:10px;
+}
+#content {
+	height:700px;
+	width:70%;
+	border: 1px solid #999;
+	margin:auto;
+	padding:10px;
+}
