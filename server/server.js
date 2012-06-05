@@ -1,16 +1,13 @@
 var express = require('express');
 var server = express.createServer();
 server.configure(function() {
+	server.use(express.favicon(__dirname + '/favicon.png', { maxAge: 2592000000 }));
 	server.use(express.static(__dirname + '/')).use(function(request, response, next) {
-		if(request.url === "404") {
-			var body = '404 test';
-			response.statusCode = 404;
-			response.setHeader('Content-Length', body.length);
-			response.end(body);
+		console.log(request.url)
+		if(request.url === "/favicon.ico") {
 		} else {
-			var body = 'my page';
-			response.setHeader('Content-Length', body.length);
-			response.end(body);
+			response.send(404);
 		}
 	})
 }).listen(3000);
+console.log('Server running at http://127.0.0.1:3000/ \npress ctrl+c to terminate');
