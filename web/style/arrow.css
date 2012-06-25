@@ -1,0 +1,114 @@
+/*** ARROW DOWN ***/
+.arrow-down {
+	background: #ccc;
+	border-bottom: 6px solid white;
+	position: relative;
+}
+.arrow-down:before,
+.arrow-down:after {
+	content: "";
+	position: absolute;
+	top:100%;
+	left:50%;
+	right:50%;
+	width: 0;
+	height: 0;
+}
+.arrow-down:before {
+	border-width: 8px;
+	border-style:solid;
+	border-color: white transparent transparent transparent;
+	margin-top:6px;
+	margin-left:-2px
+}
+.arrow-down:after {
+	border-width: 6px;
+	border-style:solid;
+	border-color: #ccc transparent transparent transparent;
+}
+/*** ARROW RIGHT ***/
+.arrow-right {
+	background: #ccc;
+	border-right: 6px solid white;
+	position: relative;
+}
+.arrow-right:before,
+.arrow-right:after {
+	content: "";
+	position: absolute;
+	left:100%;
+	top:50%;
+	width: 0;
+	height: 0;
+}
+.arrow-right:before {
+	border-width: 8px;
+	border-style:solid;
+	border-color: transparent transparent transparent white;
+	margin-left:6px;
+	margin-top:-8px;
+}
+.arrow-right:after {
+	border-width: 6px;
+	border-style:solid;
+	border-color: transparent transparent transparent #ccc;
+	margin-top:-6px;
+}
+/*** ARROW LEFT ***/
+.arrow-left {
+	background: #ccc;
+	border-left: 6px solid white;
+	position: relative;
+}
+.arrow-left:before,
+.arrow-left:after {
+	content: "";
+	position: absolute;
+	right:100%;
+	top:50%;
+	width: 0;
+	height: 0;
+
+}
+.arrow-left:before {
+	border-width: 8px;
+	border-style:solid;
+	border-color: transparent white transparent transparent;
+	margin-right:6px;
+	margin-top:-8px;
+
+}
+.arrow-left:after {
+	border-width: 6px;
+	border-style:solid;
+	border-color: transparent #ccc transparent transparent ;
+	margin-top:-6px;
+}
+/*** ARROW UP ***/
+.arrow-up {
+	background: #ccc;
+	border-top: 6px solid white;
+	position: relative;
+}
+.arrow-up:before,
+.arrow-up:after {
+	content: "";
+	position: absolute;
+	bottom:100%;
+	left:50%;
+	right:50%;
+	width: 0;
+	height: 0;
+}
+.arrow-up:before {
+	border-width: 8px;
+	border-style:solid;
+	border-color: transparent transparent white transparent;
+	margin-bottom:6px;
+	margin-left:-2px
+}
+.arrow-up:after {
+	border-width: 6px;
+	border-style:solid;
+	border-color: transparent transparent #ccc transparent;
+}

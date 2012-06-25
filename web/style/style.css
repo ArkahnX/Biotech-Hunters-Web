@@ -1,14 +1,26 @@
-#menu {
-	height:100px;
-	width:70%;
-	border: 1px solid #999;
-	margin:auto;
-	padding:10px;
+#map {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:0;
+	width:100%;
+	height:100%;
+	border:none;
 }
-#content {
-	height:700px;
-	width:70%;
-	border: 1px solid #999;
-	margin:auto;
-	padding:10px;
+#page {
+
+}
+#title {
+
+}
+#nav {
+
+}
+#novel {
+
+}
+#legend {
+
 }

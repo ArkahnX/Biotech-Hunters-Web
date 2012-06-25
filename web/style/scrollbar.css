@@ -1,0 +1,60 @@
+::-webkit-scrollbar {
+	width: 13px;
+	height: 13px;
+}
+
+::-webkit-scrollbar:hover {
+	height: 18px;
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #151716;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	height: 50px;
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #4d4d4d), color-stop(100%, #333333));
+	border: 1px solid #0d0d0d;
+	border-top: 1px solid #666666;
+	border-left: 1px solid #666666;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	width: 50px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d4d4d), color-stop(100%, #333333));
+	border: 1px solid #1f1f1f;
+	border-top: 1px solid #666666;
+	border-left: 1px solid #666666;
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+	width: 50px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5e5e5e), color-stop(100%, #444444));
+	border: 1px solid #2f2f2f;
+	border-top: 1px solid #777777;
+	border-left: 1px solid #777777;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+	height: 50px;
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #5e5e5e), color-stop(100%, #444444));
+	border: 1px solid #1e1e1e;
+	border-top: 1px solid #777777;
+	border-left: 1px solid #777777;
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+	height: 50px;
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #3c3c3c), color-stop(100%, #222222));
+	border: 1px solid #0c0c0c;
+	border-top: 1px solid #555555;
+	border-left: 1px solid #555555;
+}
+
+::-webkit-scrollbar-thumb:horizontal:active {
+	width: 50px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c3c3c), color-stop(100%, #222222));
+	border: 1px solid #0e0e0e;
+	border-top: 1px solid #555555;
+	border-left: 1px solid #555555;
+}
